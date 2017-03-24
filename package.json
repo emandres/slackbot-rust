@@ -1,0 +1,24 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "![Travis CI status](https://travis-ci.org/emandres/slackbot-rust.svg?branch=masterv)",
+  "main": "function.js",
+  "scripts": {
+    "package": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emandres/slackbot-rust.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emandres/slackbot-rust/issues"
+  },
+  "homepage": "https://github.com/emandres/slackbot-rust#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-run": "^1.7.1",
+    "gulp-zip": "^4.0.0"
+  }
+}
