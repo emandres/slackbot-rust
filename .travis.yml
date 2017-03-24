@@ -1,4 +1,15 @@
+language: rust
+
+before_install:
+  - nvm install 6.5.0
+
+script:
+  - cargo build
+  - npm install
+  - npm run package
+
 addons:
   artifacts:
     s3_region: us-west-2
-language: rust
+    paths:
+    - slackbot.zip
